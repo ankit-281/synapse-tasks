@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')()
 
-var start = prompt('Enter start number: ')
-var end = prompt('Enter end number: ')
+let start = prompt('Enter start number: ')
+let end = prompt('Enter end number: ')
 
 //function to check if number is prime
 function checkPrime(num) {
